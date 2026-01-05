@@ -1,8 +1,47 @@
-# Ignore everything by default (site-only repo)
+# Ignore everything by default (site + linked assets only)
 *
 
-# Keep the matchboard site files
+# Keep this ignore file
 !.gitignore
+
+# Core matchboard pages
 !index.html
 !School_Matchboard.html
 !matchboard.config.js
+
+# Legal templates linked from matchboard
+!01_Legal_and_Contracts/
+!01_Legal_and_Contracts/Templates/
+!01_Legal_and_Contracts/Templates/Maple_Study_Abroad_Service_Contract_Complete.html
+!01_Legal_and_Contracts/Templates/Template_01_代理合作协议.html
+!01_Legal_and_Contracts/Templates/Template_02_学生信息收集表.html
+!01_Legal_and_Contracts/Templates/Template_04_返佣项目清单.html
+!01_Legal_and_Contracts/Templates/Template_05_私立大学申请服务附录.md
+!01_Legal_and_Contracts/Templates/Template_06_SIM申请服务附录.md
+!01_Legal_and_Contracts/Templates/Template_07_幼儿园择校服务协议.md
+!01_Legal_and_Contracts/Templates/Template_08_NUS_NTU高端申请服务附录.md
+!01_Legal_and_Contracts/Templates/Template_09_K12公立AEIS申请服务附录.md
+!01_Legal_and_Contracts/Templates/Template_10_国际学校申请服务附录.md
+!01_Legal_and_Contracts/Templates/Template_11_自雇EP公司设立与EP申请服务合同.html
+
+# Pricing doc linked from matchboard
+!02_Operations_and_Data/
+!02_Operations_and_Data/pricing/
+!02_Operations_and_Data/pricing/2025-11-29_Maple_Education_价目表_分类版.md
+
+# Brand logos referenced by templates
+!04_Brand_Assets/
+!04_Brand_Assets/01_Logo/
+!04_Brand_Assets/01_Logo/Logo_MapleEducation_Main.jpg
+!04_Brand_Assets/01_Logo/Logo_MapleEducation_Main.png
+
+# Marketing decks + handbook linked from matchboard
+!05_Marketing_Media/
+!05_Marketing_Media/Decks/
+!05_Marketing_Media/Decks/Deck_01_私立本科路线.html
+!05_Marketing_Media/Decks/Deck_03_低龄AEIS路线.html
+!05_Marketing_Media/Decks/Deck_04_低龄国际学校.html
+!05_Marketing_Media/Decks/Deck_05_新加坡幼儿园.html
+!05_Marketing_Media/Decks/Deck_06_全家移民.html
+!05_Marketing_Media/Decks/Deck_07_管家服务.html
+!05_Marketing_Media/Maple\ 留学产品宣传手册.pdf
