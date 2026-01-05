@@ -1,0 +1,8 @@
+# Ignore everything by default (site-only repo)
+*
+
+# Keep the matchboard site files
+!.gitignore
+!index.html
+!School_Matchboard.html
+!matchboard.config.js
